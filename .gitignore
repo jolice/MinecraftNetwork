@@ -23,3 +23,6 @@ target
 .idea
 *.iml
 .DS_Store
+.rdb
+.sql
+
