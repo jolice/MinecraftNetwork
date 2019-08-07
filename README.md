@@ -62,6 +62,7 @@ The whole thing is put together into one monolithic plugin.
 - Multiple options of the winner calculation, based on places, time of the elimination and more.
 - Multiple elimination modes, including lives, respawning or immediate elimination.
 - Support for the spectators, in-game joining.
+- Flexible and loosely coupled game API.
 - Dozens of configurable game options.
 - Multiple game arenas, map voting.
 - Team and solo game modes.
