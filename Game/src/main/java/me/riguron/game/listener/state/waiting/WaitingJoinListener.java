@@ -1,0 +1,29 @@
+package me.riguron.game.listener.state.waiting;
+
+import lombok.RequiredArgsConstructor;
+import org.bukkit.Server;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.PlayerJoinEvent;
+import me.riguron.game.config.GameOptions;
+import me.riguron.system.task.timer.Timer;
+
+@RequiredArgsConstructor
+public class WaitingJoinListener extends WaitingStateListener {
+
+    private final Timer gameStartingTimer;
+    private final GameOptions gameOptions;
+    private final Server server;
+
+    @EventHandler
+    public void onJoin(PlayerJoinEvent playerJoinEvent) {
+        playerJoinEvent.getPlayer().teleport(gameOptions.getLobby());
+        this.checkForStart();
+    }
+
+    private void checkForStart() {
+        if (server.getOnlinePlayers().size() == gameOptions.getMinimumPlayersToStart()) {
+            gameStartingTimer.start();
+        }
+    }
+
+}
