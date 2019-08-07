@@ -44,7 +44,7 @@ The whole thing is put together into one monolithic plugin.
 
 ### BungeeCord
 
-- Automatic server registration at BungeeCord eliminating the need to specify servers manually in the Bungee config.
+- Automatic server registration at BungeeCord without the need to specify servers manually in the Bungee config.
 - Each proxy is capable of displaying global network online, not just its own.
 - Cross-proxy party system.
 - Lobby load balancing.   
