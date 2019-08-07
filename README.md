@@ -21,12 +21,14 @@ The whole thing is put together into one monolithic plugin.
 # Technologies used:
 
 - Google Guice
-- Lombok
 - Redis
+- Google Gson
 - Ebean ORM
 - RabbitMQ
-- Mockito
+- JUnit / Mockito
+- Lombok
 - H2 Database
+- Maven
 - SLF4J
 
 # Functionality
