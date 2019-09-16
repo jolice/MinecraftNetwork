@@ -1,0 +1,10 @@
+language: java
+sudo: false
+
+dist: trusty
+services: redis
+jdk:
+  - openjdk8
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
