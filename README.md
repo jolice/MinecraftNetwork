@@ -1,5 +1,7 @@
 # MinecraftNetwork
 
+[![Build Status](https://travis-ci.org/riguron/MinecraftNetwork.svg?branch=master)](https://travis-ci.org/riguron/MinecraftNetwork)
+
 This is an experimental project of my own Minecraft server network, primarily its backend, including:
 
 - Player data management
