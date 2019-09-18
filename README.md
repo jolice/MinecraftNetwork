@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/riguron/MinecraftNetwork.svg?branch=master)](https://travis-ci.org/riguron/MinecraftNetwork)
 [![codecov](https://codecov.io/gh/riguron/MinecraftNetwork/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/MinecraftNetwork)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/369ed18d70fd4215926ea0d5fa1bebbe)](https://www.codacy.com/manual/riguron/MoscowMetroBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=riguron/MoscowMetroBot&amp;utm_campaign=Badge_Grade)
 [![HitCount](http://hits.dwyl.io/riguron/MinecraftNetwork.svg)](http://hits.dwyl.io/riguron/MinecraftNetwork)
 
 This is an experimental project of my own Minecraft server network, primarily its backend, including:
