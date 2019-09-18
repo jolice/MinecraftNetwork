@@ -1,6 +1,7 @@
 # MinecraftNetwork
 
 [![Build Status](https://travis-ci.org/riguron/MinecraftNetwork.svg?branch=master)](https://travis-ci.org/riguron/MinecraftNetwork)
+[![codecov](https://codecov.io/gh/riguron/MinecraftNetwork/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/MinecraftNetwork)
 
 This is an experimental project of my own Minecraft server network, primarily its backend, including:
 
