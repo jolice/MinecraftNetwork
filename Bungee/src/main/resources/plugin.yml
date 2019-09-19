@@ -1,4 +1,4 @@
 name: BungeeCore
-main: me.riguron.BungeePlugin
+main: io.riguron.BungeePlugin
 version: 1.0
 author: riguron

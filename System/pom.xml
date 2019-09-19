@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>MinecraftNetwork</artifactId>
-        <groupId>me.riguron</groupId>
+        <groupId>io.riguron</groupId>
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -13,17 +13,17 @@
 
     <dependencies>
         <dependency>
-            <groupId>me.riguron</groupId>
+            <groupId>io.riguron</groupId>
             <artifactId>configuration</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
-            <groupId>me.riguron</groupId>
+            <groupId>io.riguron</groupId>
             <artifactId>persistence</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
-            <groupId>me.riguron</groupId>
+            <groupId>io.riguron</groupId>
             <artifactId>common</artifactId>
             <version>1.0</version>
         </dependency>
@@ -35,12 +35,12 @@
         </dependency>
 
         <dependency>
-            <groupId>me.riguron</groupId>
+            <groupId>io.riguron</groupId>
             <artifactId>serverdata</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
-            <groupId>me.riguron</groupId>
+            <groupId>io.riguron</groupId>
             <artifactId>messaging</artifactId>
             <version>1.0</version>
         </dependency>

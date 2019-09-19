@@ -1,4 +1,4 @@
 name: Game
 version: 1.1
 author: riguron
-main: me.riguron.game.plugin.GamePlugin
+main: io.riguron.game.plugin.GamePlugin

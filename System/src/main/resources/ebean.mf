@@ -1,2 +1,2 @@
-entity-packages: me.riguron
-transactional-packages: me.riguron
+entity-packages: io.riguron
+transactional-packages: io.riguron
