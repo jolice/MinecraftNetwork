@@ -18,7 +18,9 @@ public class GameSlotIterator implements Iterator<Integer> {
 
     @Override
     public Integer next() {
-        this.ensureHasNext();
+        if (!hasNext()) {
+            throw new NoSuchElementException();
+        }
         do {
             if (j == 7) {
                 i++;
@@ -36,11 +38,6 @@ public class GameSlotIterator implements Iterator<Integer> {
                 || i > 2;
     }
 
-    private void ensureHasNext() {
-        if (!hasNext()) {
-            throw new NoSuchElementException();
-        }
-    }
 
     private int currentCell() {
         return (i * 9) + j;

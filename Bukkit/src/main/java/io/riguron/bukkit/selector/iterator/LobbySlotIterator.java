@@ -1,6 +1,7 @@
 package io.riguron.bukkit.selector.iterator;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 /**
  * Iterator that provides the slot indexes for lobby server icons.
@@ -19,6 +20,10 @@ public class LobbySlotIterator implements Iterator<Integer> {
 
     @Override
     public Integer next() {
+        if (!hasNext()) {
+            throw new NoSuchElementException();
+        }
+
         return cursor++;
     }
 }

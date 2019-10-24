@@ -15,6 +15,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class ResourceDirectoryList extends GenericDirectoryList {
 
@@ -31,12 +32,14 @@ public class ResourceDirectoryList extends GenericDirectoryList {
             if (uri.getScheme().equals("jar")) {
                 try (FileSystem fileSystem = FileSystems.newFileSystem(uri, Collections.emptyMap())) {
                     Path resourcePath = fileSystem.getPath(path);
-                    return
-                            Files.walk(resourcePath, 1)
-                                    .skip(1)
-                                    .map(Path::toString)
-                                    .sorted()
-                                    .collect(Collectors.toList());
+
+                    try (Stream<Path> walker = Files.walk(resourcePath, 1)) {
+                        return walker.skip(1)
+                                .map(Path::toString)
+                                .sorted()
+                                .collect(Collectors.toList());
+                    }
+
 
                 }
             } else {
