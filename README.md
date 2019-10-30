@@ -5,7 +5,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/369ed18d70fd4215926ea0d5fa1bebbe)](https://www.codacy.com/manual/riguron/MoscowMetroBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=riguron/MoscowMetroBot&amp;utm_campaign=Badge_Grade)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=riguron_MinecraftNetwork&metric=alert_status)](https://sonarcloud.io/dashboard?id=riguron_MinecraftNetwork)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=riguron_MinecraftNetwork&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=riguron_MinecraftNetwork)
-[![HitCount](http://hits.dwyl.io/riguron/MinecraftNetwork.svg)](http://hits.dwyl.io/riguron/MinecraftNetwork)
 
 This is an experimental project of my own Minecraft server network, primarily its backend, including:
 
