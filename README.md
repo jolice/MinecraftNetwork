@@ -24,7 +24,7 @@ This is an experimental project of my own Minecraft server network, primarily it
 
 The whole thing is put together into one monolithic plugin.
 
-# Technologies used:
+## Technologies used:
 
 - Google Guice
 - Redis
@@ -37,7 +37,7 @@ The whole thing is put together into one monolithic plugin.
 - Maven
 - SLF4J
 
-# Functionality
+## Functionality
 
 ### Players
 
